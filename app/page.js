@@ -10,7 +10,7 @@ export default function Home() {
         Will you be my valentine ?
       </div>
       <div className={`text-center ${isClicked ? "block" : "hidden"}`}>
-        "I know you will say yes.Meet you tomorrow at 8 p.m. I love you."
+        I know you will say yes.Meet you tomorrow at 8 p.m. I love you  &lt;3 .
       </div>
       <div
         className={`relative w-full p-4 flex items-center gap-10 justify-center min-h-64
