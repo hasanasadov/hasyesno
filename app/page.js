@@ -10,7 +10,7 @@ export default function Home() {
         Will you be my valentine ?
       </div>
       <div className={`text-center ${isClicked ? "block" : "hidden"}`}>
-        I know you will say yes.Meet you tomorrow at 8 p.m. I love you  &lt;3 .
+        I know you will say yes. Meet you tomorrow at 8 p.m. I love you &lt;3 .
       </div>
       <div
         className={`relative w-full p-4 flex items-center gap-10 justify-center min-h-64
@@ -22,9 +22,10 @@ export default function Home() {
           onClick={() => {
             setIsClicked(true);
           }}
-          className=" bg-green-500 text-white px-4 py-2 rounded"
+          className="bg-pink-500 text-white px-4 py-2 rounded-full flex items-center gap-2"
         >
-          YES
+          <span>YES</span>
+          <span > &lt;3</span>
         </button>
         <button
           onMouseEnter={(e) => {
@@ -40,7 +41,7 @@ export default function Home() {
             button.style.left = `${randomX}px`;
             button.style.top = `${randomY}px`;
           }}
-          className="bg-red-500 text-white px-4 py-2 rounded"
+          className="bg-red-500 text-white  p-2 rounded-2xl"
         >
           NO
         </button>
